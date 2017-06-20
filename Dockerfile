@@ -7,6 +7,7 @@ RUN apt-get update \
     libcurl4-openssl-dev \
     libxml2-dev \
     libpq-dev \
+    libssl-dev \
     s3cmd \
     && rm -rf /var/lib/apt/lists/*
 
