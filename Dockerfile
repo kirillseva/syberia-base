@@ -9,6 +9,7 @@ RUN apt-get update \
     libpq-dev \
     libssl-dev \
     s3cmd \
+    git \
     && rm -rf /var/lib/apt/lists/*
 
 RUN install2.r --error \
@@ -18,7 +19,8 @@ RUN install2.r --error \
     httr \
     yaml \
     digest \
-    crayon
+    crayon \
+    remotes
 
 RUN installGithub.r \
     robertzk/lockbox@0.2.4
