@@ -23,6 +23,6 @@ RUN install2.r --error \
     remotes
 
 RUN installGithub.r \
-    robertzk/lockbox@0.2.4
+    robertzk/lockbox@0.2.4.3
 
 CMD ["R"]
