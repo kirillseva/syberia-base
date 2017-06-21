@@ -7,6 +7,8 @@ RUN apt-get update \
     libcurl4-openssl-dev \
     libxml2-dev \
     libpq-dev \
+    postgresql \
+    postgresql-contrib \
     libssl-dev \
     s3cmd \
     git \
