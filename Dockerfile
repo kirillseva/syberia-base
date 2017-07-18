@@ -12,6 +12,9 @@ RUN apt-get update \
     libssl-dev \
     s3cmd \
     git \
+    python2.7 \
+    python-pip \
+    python3-pip \
     && rm -rf /var/lib/apt/lists/*
 
 RUN install2.r --error \
