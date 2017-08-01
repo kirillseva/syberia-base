@@ -12,6 +12,7 @@ RUN apt-get update \
     libssl-dev \
     s3cmd \
     git \
+    curl \
     python2.7 \
     python-pip \
     python3-pip \
