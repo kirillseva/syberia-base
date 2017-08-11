@@ -10,6 +10,7 @@ RUN apt-get update \
     postgresql \
     postgresql-contrib \
     libtiff5-dev \
+    libgmp-dev \
     libssl-dev \
     s3cmd \
     git \
