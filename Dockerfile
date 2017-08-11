@@ -9,6 +9,7 @@ RUN apt-get update \
     libpq-dev \
     postgresql \
     postgresql-contrib \
+    libtiff5-dev \
     libssl-dev \
     s3cmd \
     git \
