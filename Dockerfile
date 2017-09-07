@@ -46,6 +46,6 @@ RUN pip install darts.util.lru==0.5 Flask==0.10.1 gunicorn==19.3.0 itsdangerous=
 
 # xgboost
 RUN cd /dev && git clone https://github.com/dmlc/xgboost.git \
-    && cd xgboost && git checkout 0.47 && ./build.sh && cd python-package && python setup.py install
+    && cd xgboost && git checkout v0.60 && ./build.sh && cd python-package && python setup.py install
 
 CMD ["R"]
