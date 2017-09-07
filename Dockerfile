@@ -45,7 +45,7 @@ RUN mkdir -p /dev
 RUN pip install darts.util.lru==0.5 Flask==0.10.1 gunicorn==19.3.0 itsdangerous==0.24 Jinja2==2.8 MarkupSafe==0.23 numpy==1.9.3 scipy==0.16.0 scikit-learn==0.17 Werkzeug==0.10.4 wheel==0.24.0
 
 # xgboost
-RUN cd /dev && git clone --recursive https://github.com/dmlc/xgboost.git \
-    && cd xgboost && git checkout v0.60 && make -j4 && cd python-package && python setup.py install
+RUN cd /dev && git clone --recursive https://github.com/kirillseva/xgboost.git \
+    && cd xgboost && git checkout 0.6.0.9012 && make -j4 && cd python-package && python setup.py install
 
 CMD ["R"]
