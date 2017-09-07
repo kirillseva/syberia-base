@@ -25,6 +25,7 @@ RUN apt-get update \
     python-dev \
     gfortran \
     libblas-dev \
+    python-setuptools \
     && rm -rf /var/lib/apt/lists/*
 
 RUN install2.r --error \
